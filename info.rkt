@@ -2,7 +2,8 @@
 
 (define collection "layout-interactive")
 (define deps
-  (list "layout"
+  (list "base"
+        "layout"
         "gui-lib"))
 
 (define pkg-authors '("schlee.simon@gmail.com"))
